@@ -1,7 +1,8 @@
 import {WebSocketServer} from 'ws';
 //https://blog.postman.com/set-up-a-websockets-server-in-node-js-postman/
 
-const wss = new WebSocketServer({port:8080});
+//const wss = new WebSocketServer({port:808});
+const wss = new WebSocketServer();
 
 var gpu_client = {};
 
